@@ -6,7 +6,7 @@ export function getWhoIsAtRiskTemplate(data){ return `
       <img src="${data.backgroundImage.src}" class="l-img">
       <div class="d-modal-contents">
         <h2>Who is at risk?</h2>
-        <div class="list-container">
+        <div class="risk list-container">
           ${getCollectionTemplate(data.collection)}
         </div>
       </div>

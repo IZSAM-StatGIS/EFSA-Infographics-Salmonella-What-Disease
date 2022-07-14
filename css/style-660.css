@@ -71,10 +71,16 @@
   }
 
   .list-container strong {
-    font-size: 1.1rem;
+    font-size: .9rem;
   }
 
+  .list-container div{
+    width: 33%;
+  }
 
+  .d-modal-contents .risk.list-container{
+      height: calc(100vh - 230px);
+  }
 
   /****** Transform *********/
 

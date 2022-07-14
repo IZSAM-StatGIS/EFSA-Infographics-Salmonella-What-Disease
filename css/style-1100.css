@@ -8,9 +8,14 @@
     font-size: 2.5rem;
   }
 
+  .d-modal-contents .risk.list-container{
+    height: calc(100vh - 270px);
+  }
+
   .d-modal-contents h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .incubation-container span{
@@ -31,7 +36,7 @@
   }
 
   .list-container strong{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
 }

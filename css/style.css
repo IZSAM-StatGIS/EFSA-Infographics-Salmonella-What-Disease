@@ -223,17 +223,28 @@ html{
   margin-top: 12px;
   padding: 30px 12px;
   background: #60a197;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.d-modal-contents .list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.d-modal-contents .risk.list-container{
+  height: calc(100vh - 200px);
 }
 
 .list-container img{
-  height: 50px;
+  height: 80px;
   margin-bottom: 12px;
 }
 
 .list-container div{
   display: flex;
   flex-direction: column;
-  width: 24%;
+  width: 45%;
   text-align: center;
   margin-bottom: 20px;
 }
