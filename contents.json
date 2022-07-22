@@ -25,7 +25,7 @@
         {"name": "Infants", "abstract": "", "img": "images/icons/ic_infant.svg"},
         {"name": "Children", "abstract": "(under 5 years of age)", "img": "images/icons/ic_children.svg"},
         {"name": "Pregnant", "abstract": "", "img": "images/icons/ic_pregnant.svg"},
-        {"name": "Elderly", "abstract": "", "img": "images/icons/ic_eldery.svg"},
+        {"name": "Elderly", "abstract": "", "img": "images/icons/ic_elderly.svg"},
         {"name": "Immunocompromised people", "abstract": "", "img": "images/icons/ic_immunecomp.svg"},
         {"name": "Patients with a disease affecting the immune system", "abstract": "diabetes", "img": "images/icons/ic_immune.svg"},
         {"name": "Patients using drugs that reduce stomach acidity", "abstract": "", "img": "images/icons/ic_acidity.svg"}
@@ -34,7 +34,13 @@
     "complications":{
       "backgroundImage": {
         "src": "images/symptoms_background.svg"
-      }
+      },
+      "collection": [
+        {"name": "Chronic arthritis", "abstract": "", "img": "images/icons/ic_arthritis.svg"},
+        {"name": "Meningitis", "abstract": "", "img": "images/icons/ic_meningits.svg"},
+        {"name": "Pneumonia", "abstract": "", "img": "images/icons/ic_pneumonia.svg"},
+        {"name": "Sepsis", "abstract": "", "img": "images/icons/ic_sepsis.svg"}
+      ]
     }
   },
   "animals": {
